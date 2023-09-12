@@ -53,13 +53,133 @@ body{
 color: #c5c5c5;
 }
 
+
+/* NAVIGATION */
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  /* padding: 15px; */
+  text-decoration: none;
+  color: rgba(255,255,255,0.75);
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0 .4em;
+  font-size: .85em;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: ghostwhite;
+  /* font-weight: 700; */
+}
+
+
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: ghostwhite;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav.fill ul li a {
+  transition: all 2s;
+}
+
+nav.fill ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+nav.fill ul li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+nav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+
+/* ABOUT PEPAdb/*/
+.about {
+  padding: 40px 0;
+}
+
+.about .container .heading .text-justify {
+  padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+  .about .container .heading .text-justify {
+    padding: 2px;
+    margin: 2px;
+  }
+}
+
+.about .heading p {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #000000;
+  margin: 20px 60px;
+  padding: 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .about .heading p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about .heading p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .about .heading p {
+    font-size: 20px;
+  }
+}
+
 /* Objectives*/
 
 #container-obj {
   background-color: #fff;
   padding: 2rem;
   box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 #container-obj .nav {
   background-color: #fafafa;
@@ -218,129 +338,12 @@ color: #c5c5c5;
   left: 1rem;
 }
 
-/* NAVIGATION */
+/* How*/
 
-nav ul {
-  list-style: none;
-  text-align: center;
+#how{
+  font-size: 1.5rem;
+  padding-top: 30px;
 }
-nav ul li {
-  display: inline-block;
-}
-nav ul li a {
-  display: block;
-  /* padding: 15px; */
-  text-decoration: none;
-  color: rgba(255,255,255,0.75);
-  font-weight: 500;
-  text-transform: uppercase;
-  margin: 0 .4em;
-  font-size: .85em;
-}
-nav ul li a,
-nav ul li a:after,
-nav ul li a:before {
-  transition: all .5s;
-}
-nav ul li a:hover {
-  color: ghostwhite;
-  /* font-weight: 700; */
-}
-
-
-/* stroke */
-nav.stroke ul li a,
-nav.fill ul li a {
-  position: relative;
-}
-nav.stroke ul li a:after,
-nav.fill ul li a:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: '.';
-  color: transparent;
-  background: ghostwhite;
-  height: 1px;
-}
-nav.stroke ul li a:hover:after {
-  width: 100%;
-}
-
-nav.fill ul li a {
-  transition: all 2s;
-}
-
-nav.fill ul li a:after {
-  text-align: left;
-  content: '.';
-  margin: 0;
-  opacity: 0;
-}
-nav.fill ul li a:hover {
-  color: #fff;
-  z-index: 1;
-}
-nav.fill ul li a:hover:after {
-  z-index: -10;
-  animation: fill 1s forwards;
-  -webkit-animation: fill 1s forwards;
-  -moz-animation: fill 1s forwards;
-  opacity: 1;
-}
-
-
-/* ABOUT PEPAdb/*/
-.about {
-  padding: 40px 0;
-}
-
-.about .container .heading .text-justify {
-  padding-bottom: 15px;
-}
-
-@media only screen and (max-width: 480px) {
-  .about .container .heading .text-justify {
-    padding: 2px;
-    margin: 2px;
-  }
-}
-
-.about .heading p {
-  font-size: 25px;
-  font-weight: 400;
-  line-height: 1.7;
-  color: #000000;
-  margin: 20px 60px;
-  padding: 0;
-}
-
-@media only screen and (max-width: 480px) {
-  .about .heading p {
-    font-size: 12px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .about .heading p {
-    font-size: 18px;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .about .heading p {
-    font-size: 20px;
-  }
-}
-
-
-
-
-
-
 
 /* TEAM */
 
@@ -427,6 +430,13 @@ nav.fill ul li a:hover:after {
     }
   }
 
+  /* Project*/
+
+  #project {
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+
 /* Carousel funding  /*/
 
 
@@ -451,10 +461,6 @@ nav.fill ul li a:hover:after {
     height: 400px;
   }
 }
-
-/* Media  /*/
-
-
 
 
 /* Contact  /*/

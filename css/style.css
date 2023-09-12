@@ -347,6 +347,12 @@ nav.fill ul li a:hover:after {
 
 /* TEAM */
 
+#text-team {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 1.5em;
+}
+
 .container-team{
   font-family: "Roboto Mono", sans-serif;
 
@@ -435,6 +441,7 @@ nav.fill ul li a:hover:after {
   #project {
     padding-top: 50px;
     padding-bottom: 10px;
+    font-size: 1.5em;
   }
 
 /* Carousel funding  /*/

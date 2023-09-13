@@ -494,6 +494,10 @@ nav.fill ul li a:hover:after {
     font-size: 1.5em;
   }
 
+  #special-text2.-expanded {
+    max-height: 140vh;
+  }
+
   /* Contact  /*/
 
 .container-cont{

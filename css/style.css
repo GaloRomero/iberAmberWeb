@@ -283,7 +283,7 @@ nav.fill ul li a:hover:after {
   background-size: 45%;
   background-color: #fdfdfd;
   overflow: hidden;
-  padding: 100px 0;
+  padding: 0px 0;
 }
 .inner-container {
   width: 55%;

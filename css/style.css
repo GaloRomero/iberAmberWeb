@@ -535,7 +535,35 @@ nav.fill ul li a:hover:after {
     right: 0;
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
   }
+
+  
+  /* Funding  /*/
  
+  #logo-grid {
+    align-content: space-around;
+    align-items: flex-start;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    max-width: 750px;
+  }
+  .partner-logo {
+    box-sizing: border-box;
+  }
+  .partner-logo img {
+    display: block;
+    max-width: 187px;
+    width: 100%;
+  }
+  .partner-logo img:hover {
+    background-color: #eeeeee;
+  }
+  .col-2 img {
+    max-width: 375px;
+  }
+
 
   /* Contact  /*/
 

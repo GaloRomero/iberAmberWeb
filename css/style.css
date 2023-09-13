@@ -485,18 +485,57 @@ nav.fill ul li a:hover:after {
     }
   }
   
-   
   /* Project*/
 
   #project {
     padding-top: 50px;
     padding-bottom: 10px;
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
-  #special-text2.-expanded {
+  .expand-button-2 {
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    width: 15%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #c5c5c5;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+  .expand-button-2:hover, .expand-button-2:active, .expand-button-2:focus {
+    background-color: #3c3c3b;
+    color: white;
+  }
+  .special-text-2 {
+    
+    line-height: 1;
+    font-size: 2em;
+    padding-right: 150px;
+    padding-left: 150px;
+    position: relative;
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 1s ease;
+  }
+  .special-text-2.-expanded {
     max-height: 140vh;
   }
+  .special-text-2:not(.-expanded)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  }
+ 
 
   /* Contact  /*/
 

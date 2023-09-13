@@ -31,6 +31,19 @@ $(document).ready(function() {
         }
       });
 
+      // Animate the scroll to top
+
+    $('.expand-button-2').on('click', function(){
+        $('.special-text-2').toggleClass('-expanded');
+        
+        if ($('.special-text-2').hasClass('-expanded')) {
+          $('.expand-button-2').html('Less');
+        } else {
+          $('.expand-button-2').html('More');
+        }
+      });
+
+
 
 
 

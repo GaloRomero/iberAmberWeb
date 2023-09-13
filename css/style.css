@@ -360,8 +360,8 @@ nav.fill ul li a:hover:after {
 .special-text {
   line-height: 1;
   font-size: 2em;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 150px;
+  padding-left: 150px;
   position: relative;
   max-height: 100px;
   overflow: hidden;
@@ -468,7 +468,8 @@ nav.fill ul li a:hover:after {
   @media only screen and (max-width: 770px) {
     .special-text{
       font-size: 25px;
-    
+      padding-right: 0px;
+      padding-left: 0px;
     }
   }
   
@@ -476,7 +477,8 @@ nav.fill ul li a:hover:after {
   @media only screen and (max-width: 1024px) {
     .special-text {
       font-size: 22px;
-      
+      padding-right: 0px;
+      padding-left: 0px;
     }
   }
   

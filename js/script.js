@@ -25,9 +25,9 @@ $(document).ready(function() {
         $('.special-text').toggleClass('-expanded');
         
         if ($('.special-text').hasClass('-expanded')) {
-          $('.expand-button').html('Collapse Content');
+          $('.expand-button').html('Less');
         } else {
-          $('.expand-button').html('Continue Reading');
+          $('.expand-button').html('More');
         }
       });
 

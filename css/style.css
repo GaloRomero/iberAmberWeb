@@ -176,10 +176,10 @@ nav.fill ul li a:hover:after {
 
 #container-obj {
   background-color: #fff;
-  padding: 2rem;
+  padding: 1rem;
   box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
   padding-top: 0px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 #container-obj .list .num {

@@ -323,11 +323,25 @@ nav.fill ul li a:hover:after {
   }
 }
 
+@media only screen and (max-width: 770px) {
+  .text{
+    font-size: 25px;
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .text {
+    font-size: 22px;
+  }
+}
+
+
 
 /* TEAM */
 
 #text-team {
-  padding-top: 50px;
+  padding-top: 10px;
   padding-bottom: 10px;
   font-size: 1.5em;
 }

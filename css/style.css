@@ -300,7 +300,7 @@ nav.fill ul li a:hover:after {
 /* How BIS */
 
 .how-section {
-  background: url(https://images.unsplash.com/photo-1517336714731-489689fd1ca8) no-repeat left;
+  background: url(https://pepadb.us.es/imagenes_app/iberamber/ana.JPG) no-repeat left;
   background-size: 55%;
   background-color: #fdfdfd;
   overflow: hidden;
@@ -318,25 +318,20 @@ nav.fill ul li a:hover:after {
   font-weight: 900;
 }
 .text {
-  font-size: 13px;
+  font-size: 20px;
   color: #545454;
   line-height: 30px;
   text-align: justify;
   margin-bottom: 40px;
 }
-.skills {
-  display: flex;
-  justify-content: space-between;
-  font-weight: 700;
-  font-size: 13px;
-}
+
 @media screen and (max-width: 1200px) {
   .inner-container {
     padding: 70px;
   }
 }
 @media screen and (max-width: 1000px) {
-  .about-section {
+  .how-section {
     background-size: 100%;
     padding: 100px 40px;
   }
@@ -345,7 +340,7 @@ nav.fill ul li a:hover:after {
   }
 }
 @media screen and (max-width: 600px) {
-  .about-section {
+  .how-section {
     padding: 0;
   }
   .inner-container {

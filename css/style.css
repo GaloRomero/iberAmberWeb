@@ -301,7 +301,7 @@ nav.fill ul li a:hover:after {
 
 .how-section {
   background: url(https://pepadb.us.es/imagenes_app/iberamber/ana.JPG) no-repeat left;
-  background-size: 55%;
+  background-size: 45%;
   background-color: #fdfdfd;
   overflow: hidden;
   padding: 100px 0;
@@ -312,13 +312,9 @@ nav.fill ul li a:hover:after {
   background-color: #fdfdfd;
   padding: 150px;
 }
-.inner-container h1 {
-  margin-bottom: 30px;
-  font-size: 30px;
-  font-weight: 900;
-}
+
 .text {
-  font-size: 20px;
+  font-size: 30px;
   color: #545454;
   line-height: 30px;
   text-align: justify;
@@ -348,12 +344,7 @@ nav.fill ul li a:hover:after {
   }
 }
 
-/* How*/
 
-#how{
-  font-size: 1.5rem;
-  padding-top: 30px;
-}
 
 /* TEAM */
 

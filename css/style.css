@@ -485,7 +485,7 @@ nav.fill ul li a:hover:after {
     }
   }
   
-
+   
   /* Project*/
 
   #project {
@@ -494,33 +494,7 @@ nav.fill ul li a:hover:after {
     font-size: 1.5em;
   }
 
-/* Carousel funding  /*/
-
-
-.carousel-fund {
-  background: #ffffff;
-  padding-top:20px;
-  padding-bottom: 30px;
-  width: 70%;
-  margin: auto;
-  
-}
-
-.carousel-fund img {
-  display: block;
-  height: 80px;
-  margin-right: 80px;
-  
-}
-
-@media screen and ( min-width: 768px ) {
-  .carousel img {
-    height: 400px;
-  }
-}
-
-
-/* Contact  /*/
+  /* Contact  /*/
 
 .container-cont{
   background: #f9f9f9;
@@ -599,6 +573,7 @@ nav.fill ul li a:hover:after {
   }
 }
 
+/
  /* FOOTER HOVER ICONS/*/
 
  .fa-creative-commons{color:#3c3c3b!important;}

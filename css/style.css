@@ -341,6 +341,7 @@ nav.fill ul li a:hover:after {
 /* TEAM */
 
 .expand-button {
+  font-weight: bold;
   cursor: pointer;
   display: block;
   width: 15%;
@@ -359,6 +360,7 @@ nav.fill ul li a:hover:after {
   color: white;
 }
 .special-text {
+  
   line-height: 1;
   font-size: 2em;
   padding-right: 150px;

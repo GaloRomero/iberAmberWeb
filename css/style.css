@@ -405,10 +405,11 @@ position: relative;
 padding-left: 30px;
 }
 
-.how-section .text{
-margin-bottom: 40px;
-font-size: 16px;
-line-height: 26px;
+.how-section .text-justify{
+justify-content: center;
+margin-bottom: 20px;
+font-size: 2em;
+line-height: 1;
 color: #848484;
 font-weight: 400;
 }

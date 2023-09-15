@@ -383,8 +383,7 @@ nav.fill ul li a:hover:after {
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 }
 
-  
-  /* TEAM*/
+
 
 .container-team{
   font-family: "Roboto Mono", sans-serif;
@@ -496,6 +495,8 @@ nav.fill ul li a:hover:after {
       padding-left: 10px;
     }
   }
+
+ 
   
   /* Project*/
 

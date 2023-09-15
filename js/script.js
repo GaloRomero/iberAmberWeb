@@ -44,6 +44,9 @@ $(document).ready(function() {
       });
 
 
+       // Team collapse
+
+      
 
 
 

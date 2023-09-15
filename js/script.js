@@ -58,19 +58,6 @@ $(document).ready(function() {
       });
 
 
-       // More-Less Team-Cards
-
-       function toggle(){
-        var chevElement =  document.getElementById('chevron');
-        var button = document.getElementById('toggle-button');
-    
-        if( chevElement.className.includes('right')){
-          button.innerHTML = 'Show Less &nbsp &nbsp <i id="chevron" class="fas fa-chevron-down"></i>';
-        }
-        else if(chevElement.className.includes('down')){
-          button.innerHTML = 'Show More  &nbsp <i id="chevron" class="fas fa-chevron-right"></i>';
-        }
-    }
 
 
 

@@ -352,12 +352,12 @@ nav.fill ul li a:hover:after {
 /* Icon when the collapsible content is shown */
 #boton-collapse:after {
   font-family: "Glyphicons Halflings";
-  content: "\e114";
+  content: "-";
 
 }
 /* Icon when the collapsible content is hidden */
 #boton-collapse.collapsed:after {
-  content: "\e080";
+  content: "+";
 }
 
 .expand-button {

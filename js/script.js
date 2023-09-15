@@ -11,7 +11,6 @@ $(document).ready(function() {
         }
     });
     
-    // Animate the scroll to top
     $('.go-top').click(function(event) {
         event.preventDefault();
         
@@ -19,7 +18,7 @@ $(document).ready(function() {
     })
 });
 
-    // Animate the scroll to top
+    // More-Less Team
 
     $('.expand-button').on('click', function(){
         $('.special-text').toggleClass('-expanded');
@@ -31,7 +30,22 @@ $(document).ready(function() {
         }
       });
 
-      // Animate the scroll to top
+    // More-Less Team-Cards
+
+    
+    $('.expand-button-cards').on('click', function(){
+      $('.special-text-cards').toggleClass('-expanded');
+      
+      if ($('.special-text-cards').hasClass('-expanded')) {
+        $('.expand-button-cards').html('Less');
+      } else {
+        $('.expand-button-cards').html('More');
+      }
+    });
+
+
+
+      // More-Less Project
 
     $('.expand-button-2').on('click', function(){
         $('.special-text-2').toggleClass('-expanded');
@@ -44,7 +58,7 @@ $(document).ready(function() {
       });
 
 
-       // Team collapse
+       // More-Less Team-Cards
 
       
 

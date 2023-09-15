@@ -340,15 +340,18 @@ nav.fill ul li a:hover:after {
 
 /* TEAM */
 
+#boton-collapse{
+  margin: auto !important;
+}
+
 /* Icon when the collapsible content is shown */
-.btn:after {
+#boton-collapse:after {
   font-family: "Glyphicons Halflings";
   content: "\e114";
-  float: right;
-  margin-left: 15px;
+
 }
 /* Icon when the collapsible content is hidden */
-.btn.collapsed:after {
+#boton-collapse.collapsed:after {
   content: "\e080";
 }
 

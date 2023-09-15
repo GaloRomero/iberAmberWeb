@@ -383,7 +383,8 @@ nav.fill ul li a:hover:after {
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 }
 
-
+  
+  /* TEAM*/
 
 .container-team{
   font-family: "Roboto Mono", sans-serif;
@@ -426,6 +427,17 @@ nav.fill ul li a:hover:after {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#ciencia-icon{
+  font-size: 1.5rem;
+  color: darkgray;
+  transition: transform .5s;
+}
+
+#ciencia-icon:hover {
+  color: black;
+  transform: scale(1.1);
 }
 
 .fa-orcid {

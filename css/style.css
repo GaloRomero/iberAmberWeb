@@ -342,6 +342,8 @@ nav.fill ul li a:hover:after {
 
 #boton-collapse{
   margin: auto !important;
+  box-shadow: none;
+  border-color:none;
 }
 
 /* Icon when the collapsible content is shown */

@@ -365,7 +365,7 @@ nav.fill ul li a:hover:after {
   font-weight: bold;
   cursor: pointer;
   display: block;
-  width: 20%;
+  width: 15%;
   margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
@@ -381,7 +381,6 @@ nav.fill ul li a:hover:after {
   color: white;
 }
 .special-text {
-  
   line-height: 1;
   font-size: 2em;
   padding-right: 110px;
@@ -501,7 +500,7 @@ nav.fill ul li a:hover:after {
 
   @media only screen and (max-width: 770px) {
     .special-text{
-      font-size: 25px;
+      font-size: 15px;
       padding-right: 10px;
       padding-left: 10px;
     }
@@ -510,7 +509,7 @@ nav.fill ul li a:hover:after {
   
   @media only screen and (max-width: 1024px) {
     .special-text {
-      font-size: 22px;
+      font-size: 15px;
       padding-right: 10px;
       padding-left: 10px;
     }
@@ -530,7 +529,7 @@ nav.fill ul li a:hover:after {
     font-weight: bold;
     cursor: pointer;
     display: block;
-    width: 20%;
+    width: 15%;
     margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
@@ -570,7 +569,7 @@ nav.fill ul li a:hover:after {
 
   @media only screen and (max-width: 770px) {
     .special-text-2{
-      font-size: 25px;
+      font-size: 15px;
       padding-right: 10px;
       padding-left: 10px;
     }
@@ -579,7 +578,7 @@ nav.fill ul li a:hover:after {
   
   @media only screen and (max-width: 1024px) {
     .special-text-2 {
-      font-size: 22px;
+      font-size: 15px;
       padding-right: 10px;
       padding-left: 10px;
     }

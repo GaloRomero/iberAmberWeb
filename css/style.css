@@ -365,7 +365,7 @@ nav.fill ul li a:hover:after {
   font-weight: bold;
   cursor: pointer;
   display: block;
-  width: 15%;
+  width: auto;
   margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
@@ -498,7 +498,22 @@ nav.fill ul li a:hover:after {
     }
   }
 
- 
+  @media only screen and (max-width: 770px) {
+    .special-text{
+      font-size: 15px;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 1024px) {
+    .special-text {
+      font-size: 15px;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
 
  
   
@@ -514,7 +529,7 @@ nav.fill ul li a:hover:after {
     font-weight: bold;
     cursor: pointer;
     display: block;
-    width: 15%;
+    width: auto;
     margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
@@ -550,6 +565,23 @@ nav.fill ul li a:hover:after {
     left: 0;
     right: 0;
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  }
+
+  @media only screen and (max-width: 770px) {
+    .special-text-2{
+      font-size: 15px;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 1024px) {
+    .special-text-2 {
+      font-size: 15px;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
   }
 
   

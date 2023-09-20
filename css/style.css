@@ -773,6 +773,9 @@ background: none;
     }
   }
 
+   /* Social media - Twitter/*/
+
+
   /* Contact  /*/
 
 .container-cont{
@@ -854,15 +857,6 @@ background: none;
 
 /
  /* FOOTER HOVER ICONS/*/
-
- .fa-creative-commons{color:#3c3c3b!important;}
- .fa-creative-commons:hover{color:#FFFFFF!important;}
- .fa-creative-commons-by{color:#3c3c3b!important;}
- .fa-creative-commons-by:hover{color:#FFFFFF!important;}
- .fa-creative-commons-nc{color:#3c3c3b!important;}
- .fa-creative-commons-nc:hover{color:#FFFFFF!important;}
- .fa-creative-commons-sa{color:#3c3c3b!important;}
- .fa-creative-commons-sa:hover{color:#FFFFFF!important;}
 
  #social-icons-foot:focus{
   box-shadow:none;

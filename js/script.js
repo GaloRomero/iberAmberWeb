@@ -1,4 +1,3 @@
-
 //Arrow back to top
 
 $(document).ready(function() {
@@ -32,7 +31,6 @@ $(document).ready(function() {
 
     // More-Less Team-Cards
 
-    
     $('.expand-button-cards').on('click', function(){
       $('.special-text-cards').toggleClass('-expanded');
       
@@ -42,8 +40,6 @@ $(document).ready(function() {
         $('.expand-button-cards').html('More');
       }
     });
-
-
 
       // More-Less Project
 

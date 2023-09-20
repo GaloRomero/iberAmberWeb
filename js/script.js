@@ -58,9 +58,9 @@ $(document).ready(function() {
       });
 
 
+// Clipboard js 
 
-
-
+new ClipboardJS('.btn');
 
 
 

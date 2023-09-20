@@ -61,6 +61,3 @@ new ClipboardJS('.btn');
 
 
 
-
-
-

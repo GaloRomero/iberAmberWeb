@@ -773,8 +773,35 @@ background: none;
     }
   }
 
-   /* Social media - Twitter/*/
 
+
+
+  /* Counter /*/
+
+.count-area {
+  margin-top: -80px;
+  position: relative;
+  background: #fff;
+  padding: 50px 0;
+  text-align: center;
+  color: #3c3c3b;
+  font-family: "Roboto Mono", sans-serif;
+}
+.count-area-content {
+  margin-top: 30px;
+}
+.count-area i {
+  font-size: 48px;
+}
+.count-digit {
+  margin: 20px 0px;
+  color: #3c3c3b;
+  font-weight: 400;
+  font-size: 50px;
+}
+.count-title {
+  font-size: 20px;
+}
 
   /* Contact  /*/
 

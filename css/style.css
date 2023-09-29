@@ -522,12 +522,21 @@ background: none;
 .special-text {
   line-height: 1;
   font-size: 2em;
-  
   position: relative;
   max-height: 100px;
   overflow: hidden;
   transition: max-height 1s ease;
 }
+
+.special-text .text justify{
+  line-height: 1;
+  font-size: 2em;
+  position: relative;
+  max-height: 100px;
+  overflow: hidden;
+  transition: max-height 1s ease;
+}
+
 .special-text.-expanded {
   max-height: 100vh;
 }

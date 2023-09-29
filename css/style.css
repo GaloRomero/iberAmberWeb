@@ -292,7 +292,7 @@ nav.fill ul li a:hover:after {
 }
 
 .text {
-  font-size: 30px;
+  font-size: 2em;
   color: #545454;
   line-height: 1;
   text-align: justify;
@@ -324,14 +324,7 @@ nav.fill ul li a:hover:after {
 
 @media only screen and (max-width: 770px) {
   .text{
-    font-size: 25px;
-  }
-}
-
-
-@media only screen and (max-width: 1024px) {
-  .text {
-    font-size: 22px;
+    font-size: 1.25em;
   }
 }
 
@@ -529,8 +522,7 @@ background: none;
 .special-text {
   line-height: 1;
   font-size: 2em;
-  padding-right: 110px;
-  padding-left: 110px;
+  
   position: relative;
   max-height: 100px;
   overflow: hidden;
@@ -652,23 +644,11 @@ background: none;
 
   @media only screen and (max-width: 770px) {
     .special-text{
-      font-size: 15px;
-      padding-right: 10px;
-      padding-left: 10px;
-    }
+      font-size: 1.25em;
+      padding: 15px;
   }
-  
-  
-  @media only screen and (max-width: 1024px) {
-    .special-text {
-      font-size: 15px;
-      padding-right: 10px;
-      padding-left: 10px;
-    }
-  }
+}
 
- 
-  
   /* Project*/
 
   #project {

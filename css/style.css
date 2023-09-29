@@ -140,7 +140,6 @@ nav.fill ul li a:hover:after {
   }
 }
 
-
 /* Objectives*/
 
 #objectives-text{
@@ -272,7 +271,7 @@ nav.fill ul li a:hover:after {
 
 @media only screen and (max-width: 770px) {
   #container-obj .list .num h3 {
-    font-size: 1em;
+    font-size: 0.75em;
   }
 }
 

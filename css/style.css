@@ -17,18 +17,18 @@ body{
   background-color: #3c3c3b;
 }
 
-.fa-twitter{
+.fa-x-twitter{
   color: #fff;
+}
+
+.fa-x-twitter:hover{
+  color: #c5c5c5;
 }
 
 .fa-facebook-f{
   color: #fff;
 }
 
-
-.fa-twitter:hover{
-  color: #c5c5c5;
-}
 
 .fa-facebook-f:hover{
   color: #c5c5c5;
